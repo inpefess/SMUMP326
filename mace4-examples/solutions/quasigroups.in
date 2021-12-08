@@ -1,0 +1,4 @@
+formulas(assumptions).
+(x * y) / y = x.
+x \ (x * y) = y.
+end_of_list.

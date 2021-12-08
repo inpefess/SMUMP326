@@ -1,0 +1,10 @@
+% comments start with a percent sign
+% model description must be inside 'formulas' syntactic brackets
+formulas(assumptions).
+% all statements must end with a full stop!
+x * y = y * x. % mace4 understands the infix notation
+f(x) = x * x. % you can also use functions
+g(x, y) = g(y, x). % prefix notation is also possible for operations
+c1 * c1 != c1. % symbols starting with 'c' are constants
+1 * 2 = 3. % natural numbers mean concrete objects
+end_of_list.
